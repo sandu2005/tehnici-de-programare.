@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+ background-color: #fdf4ed;
+ font-family: 'Lato', sans-serif;
+}
+img {
+ width: 90vw;
+}
+.pr1 {
+ width: 70vw;
+}
+p {
+ font-size: 20px;
+}
+
+.frame {
+ background: #282c34;
+ border: 1px solid black;
+ width: 100%;
+}
+
+.example1 {
+ color: #abb2bf;
+ font-size: 20px;
+}
+
+.example2 {
+ color: #c26c75;
+ font-size: 20px;
+}
+
+.example3 {
+ color: #d17c44;
+ font-size: 20px;
+}
+
+.example4 {
+ color: #89c36e;
+ font-size: 20px;
+}
+
+.example5 {
+ color: #c66cac;
+ font-size: 20px;
+}
+
+.example6 {
+ color: #56b6a7;
+ font-size: 20px;
+}
+
+.by {
+ width: fit-content;
+ height: fit-content;
+ background-color: white;
+ border-radius: 10%;
+ position: absolute;
+ top: 0;
+ left: 0;
+ animation: myAnimation 10s infinite;
+
+}
+
+.by1 {
+ text-align: center;
+ border-radius: 10px;
+ background-color: white;
+ border: 1px solid black;
+}
+
+@keyframes myAnimation {
+ 0% { top: 10px; left: 10px; }
+ 25% { top: 350px; left: 10px; }
+ 50% { top: 350px; left: calc(100% - 130px); }
+ 75% { top: 10px; left: calc(100% - 130px); }
+ 100% { top: 10px; left: 10px; }
+}
